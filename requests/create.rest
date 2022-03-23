@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImhlbGxhcyIsImlkIjoiNjIyYjJkODk4Yjk1ODVhODRiNDJmNGMwIiwiaWF0IjoxNjQ3MDA3NzE5fQ.4Zrc5_vj0sYtxffQGmrQJwdTjTbHlRg7zZb5JcKcA0M
+
+{
+  "title": "middleware trying",
+  "author": "Edsger W. Dijkstra",
+  "url": "https://cs.arizona.com/",
+  "likes": 12
+}
